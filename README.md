@@ -81,17 +81,15 @@ Picture 1 IS a proprioceptive signal, and picture IS NOT. Anything that has a si
 
 **5.** Set SIGNAL_IDX equal to whatever row you want to observe. Say, if you wanted to look at row 1 in the CSV, then I would change SIGNAL_IDX to be equal to 1 (i.e.: SIGNAL_IDX = 1). If you wanted to look at row 3232, then SIGNAL_IDX = 3232.
 
-**6.** Observe this process:
+**6.** Look at CSV as see what row needs to be classified.
+**7.** Set SIGNAL_IDX equal to that row number.
+**8.** In Visual Studio code, open up the the integrated terminal, and run: python single-signal-analyzer.py .
+**9.** Draw conclusions about the signal.
+**10.** CLOSE the graph that appeared.
+**11.** Switch over to the CSV, and write 1 if signal, and 0 is not signal.
+**12.** (Make sure to save your CSV every so often so that if anything goes wrong, you do not lose the classifications, nor the time that you spent doing this.)
 
-    **1.** Look at CSV as see what row needs to be classified.
-    **2.** Set SIGNAL_IDX equal to that row number.
-    **3.** In Visual Studio code, open up the the integrated terminal, and run: python single-signal-analyzer.py .
-    **4.** Draw conclusions about the signal.
-    **5.** CLOSE the graph that appeared.
-    **6.** Switch over to the CSV, and write 1 if signal, and 0 is not signal.
-    **7.** (Make sure to save your CSV every so often so that if anything goes wrong, you do not lose the classifications, nor the time that you spent doing this.)
-
-**7.** Repeat step 6 until you complete classification.
+**13.** Repeat steps 6-12 until you complete classifying the CSV file.
 
 
 ## Done
