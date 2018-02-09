@@ -60,6 +60,8 @@ Not only are our lab’s Labchart files large and computationally expensive when
 
 **3.** Open the integrated terminal in Visual Studio Code - you can find it under the *“View”* tab.
 
+**3.5** (If you are using windows, type *activate base*.)
+
 **4.** Type into the terminal: *python capture-signals.py* . It will take about 12.5 minutes, so find something to do in the meantime.
 
 **5.** After the program has finished running, go back into the folder *WL-Signal-Classification -> captured-signals* to find a csv file containing all of the possible signals that had been processed and found, called: *signals.csv* .
